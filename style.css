@@ -1,0 +1,155 @@
+ ========== Сброс стилей и шрифты ========== 
+ {
+  margin 0;
+  padding 0;
+  box-sizing border-box;
+}
+
+html {
+  scroll-behavior smooth;  Плавный скролл 
+}
+
+body {
+  font-family 'Inter', sans-serif;
+  background-color #fffaf5;  Светлый фон 
+  color #1e1e1e;  Тёмный текст 
+  line-height 1.6;
+}
+
+img {
+  max-width 100%;
+  display block;
+}
+
+a {
+  text-decoration none;
+  color inherit;  Наследует цвет родителя 
+}
+
+ ========== Контейнер ========== 
+.container {
+  max-width 1200px;
+  margin 0 auto;
+  padding 0 16px;
+}
+
+ ========== Хедер ========== 
+.site-header {
+  background-color #fff;
+  border-bottom 1px solid #eee;
+  padding 16px 0;
+}
+
+.site-header .logo {
+  font-family 'Bebas Neue', sans-serif;
+  font-size 32px;
+  color #ff5b00;  Оранжевый 
+  letter-spacing 1px;
+}
+
+.nav {
+  display flex;
+  gap 24px;
+  align-items center;
+}
+
+.site-header .container {
+  display flex;
+  justify-content space-between;
+  align-items center;
+}
+
+ ========== Кнопки ========== 
+.btn-primary {
+  background-color #ff5b00;
+  color #fff;
+  padding 12px 24px;
+  border-radius 8px;
+  font-weight 600;
+  transition background 0.3s ease;
+  display inline-block;
+  margin-top 16px;
+}
+
+.btn-primaryhover {
+  background-color #e04d00;
+}
+
+ ========== Герой-секция ========== 
+.hero {
+  background url('..imagesbackground.jpg') centercover no-repeat;
+  color #fff;
+  padding 120px 0;
+  text-align center;
+}
+
+.hero h1 {
+  font-family 'Bebas Neue', sans-serif;
+  font-size 64px;
+  margin-bottom 12px;
+}
+
+.hero p {
+  font-size 18px;
+  max-width 600px;
+  margin 0 auto;
+}
+
+ ========== Раздел бургеров ========== 
+.burgers {
+  padding 60px 0;
+  text-align center;
+}
+
+.burgers h2 {
+  font-size 32px;
+  margin-bottom 32px;
+}
+
+.burger-grid {
+  display grid;
+  grid-template-columns repeat(auto-fit, minmax(260px, 1fr));
+  gap 24px;
+}
+
+.burger-card {
+  background #fff;
+  border-radius 12px;
+  box-shadow 0 4px 14px rgba(0,0,0,0.06);
+  padding 16px;
+  text-align left;
+}
+
+.burger-card h3 {
+  margin 12px 0 4px;
+  font-size 20px;
+}
+
+.burger-card span {
+  display block;
+  margin-top 8px;
+  font-weight bold;
+  color #ff5b00;
+}
+
+ ========== Призыв к действию ========== 
+.cta {
+  background #ff5b00;
+  color #fff;
+  padding 60px 0;
+  text-align center;
+}
+
+.cta h2 {
+  font-size 32px;
+  margin-bottom 16px;
+}
+
+ ========== Футер ========== 
+.site-footer {
+  background #f4f4f4;
+  padding 24px 0;
+  text-align center;
+  font-size 14px;
+  color #666;
+}

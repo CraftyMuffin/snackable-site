@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snackable — Street Food</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Хедер -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Snackable</a>
+      <nav class="nav">
+        <a href="menu.html">Меню</a>
+        <a href="about.html">О нас</a>
+        <a href="order.html" class="order-btn">Заказать</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Герой-секция -->
+  <section class="hero">
+    <div class="container">
+      <h1>Street food. <br />Яркий вкус.</h1>
+      <p>Вкусные бургеры с доставкой — быстро, просто, как ты любишь!</p>
+      <a href="menu.html" class="btn-primary">Смотреть меню</a>
+    </div>
+  </section>
+
+  <!-- Превью бургеров -->
+  <section class="burgers">
+    <div class="container">
+      <h2>Лучшие хиты</h2>
+      <div class="burger-grid">
+        <!-- burger-card.html вставляется сюда (компонент) -->
+        <div class="burger-card">
+          <img src="images/burger1.jpg" alt="Чизбургер" />
+          <h3>Чизбургер</h3>
+          <p>Классический бургер с говядиной, сыром и соусом.</p>
+          <span>₴149</span>
+        </div>
+        <!-- добавить ещё -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Призыв к действию -->
+  <section class="cta">
+    <div class="container">
+      <h2>Готов сделать заказ?</h2>
+      <a href="order.html" class="btn-primary">Заказать в Telegram</a>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Snackable. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
